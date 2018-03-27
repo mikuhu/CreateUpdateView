@@ -1,0 +1,60 @@
+* {
+    background-color: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+}
+.block {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+
+button {
+    border: none;
+    width: 99px;
+    height: 35px;
+    background-color: #0284c6;
+    color: white;
+    float: left;
+    margin-bottom: 10px;
+     
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #0264c6;
+}
+
+form {
+    background-color: white;
+}
+
+.addDiv {
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.viewBlock {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#viewBlock {
+    margin-left: 10px;
+    background-color: white;
+}
+
+p {
+    background-color: white;
+}

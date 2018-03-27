@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block">
+            <div class="addDiv">
+                <h1>Изменение</h1>
+                <p>Введите БИК банка, который хотите изменить и остальные поля</p>
+
+                <input type="text" id="bik" name="bik" placeholder="БИК">
+                <br />
+                <br />
+                <input type="text" id="name" name="name" placeholder="Название">
+                <br />
+                <br />
+                <input type="text" id="corBil" name="corBil" placeholder="Корсчет">
+                <br />
+                <br />
+                <input type="text" id="adress" name="adress" placeholder="Адрес">
+                <br />
+                <br />
+                <br />
+
+                <button onclick="change()">Изменить</button>
+
+            </div>
+        </div>
+        <div class="block">
+            <div class="addDiv">
+                <h1>Добавление банка</h1>
+
+                <input type="text" id="bik" name="bik" placeholder="БИК">
+                <br />
+                <br />
+                <input type="text" id="name" name="name" placeholder="Название">
+                <br />
+                <br />
+                <input type="text" id="corBil" name="corBil" placeholder="Корсчет">
+                <br />
+                <br />
+                <input type="text" id="adress" name="adress" placeholder="Адрес">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <button onclick="add()">Добавить</button>
+
+            </div>
+        </div>
+        <div class="block">
+            <h1>Просмотр</h1>
+            <p>
+                <div id="viewBlock"></div>
+            </p>
+        </div>
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
